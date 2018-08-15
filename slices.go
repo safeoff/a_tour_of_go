@@ -16,7 +16,6 @@ func Pic(dx, dy int) [][]uint8 {
 			p[y][x] = calc(x, y)
 		}
 	}
-
 	return p
 }
 
